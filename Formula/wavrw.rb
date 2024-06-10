@@ -1,21 +1,21 @@
 class Wavrw < Formula
   desc "WAV file metadata read/write utility"
   homepage "https://github.com/briandorsey/wavrw"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/briandorsey/wavrw/releases/download/v0.1.0/wavrw-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "0510421f357e4327e669d4613abadcc695d967193787503197761857918bd86e"
+      url "https://github.com/briandorsey/wavrw/releases/download/v0.2.0/wavrw-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "fc84048a4e3a205700306c52896467e13ed776fb72ac2fdab60476740b0502f7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/briandorsey/wavrw/releases/download/v0.1.0/wavrw-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "606e27200f10fcfe148435fffc60463bfd421cea5a751e46e0e5dfb914dd30ed"
+      url "https://github.com/briandorsey/wavrw/releases/download/v0.2.0/wavrw-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "dc77baa6c7acd6318a330c4d41868b68b23fedf6bef0a78f8d10f5cff68dad45"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/briandorsey/wavrw/releases/download/v0.1.0/wavrw-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2ad07562f7af331f1b6e6ee426fce25ed7842ade883f81c02a8b1c60569e7467"
+      url "https://github.com/briandorsey/wavrw/releases/download/v0.2.0/wavrw-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "bc3e63e52914a9af70692e1ab7f4173d5058589036d6d06f5f2d0ab706a86cad"
     end
   end
   license "Apache-2.0 OR MIT"
